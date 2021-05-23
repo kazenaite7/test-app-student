@@ -7,6 +7,8 @@ import westernsQuestions from "../data/westerns";
 import computerQuestions from "../data/computers";
 import testas1 from "../data/testas1";
 import testas2 from "../data/testas2";
+import kortele1 from "../data/kortele1";
+import kortele2 from "../data/kortele2";
 
 import { RowItem } from "../components/RowItem";
 
@@ -73,35 +75,24 @@ export default ({ navigation }) => (
       <Text style={theme.Text2}>Mokomosios kortelės</Text>
       <ScrollView>
         <RowItem
-          name="Testas1"
+          name="Korteles 1"
           color="#36b1f0"
           onPress={() =>
-            navigation.navigate("Quiz", {
-              title: "Testas1",
-              questions: testas1,
+            navigation.navigate("Cards", {
+              title: "Korteles 1",
+              questions: kortele1,
               color: "#36b1f0"
             })
           }
         />
         <RowItem
-          name="Westerns"
-          color="#799496"
+          name="Korteles 2"
+          color="#36b1f0"
           onPress={() =>
-            navigation.navigate("Quiz", {
-              title: "Westerns",
-              questions: westernsQuestions,
-              color: "#799496"
-            })
-          }
-        />
-        <RowItem
-          name="Computers"
-          color="#49475B"
-          onPress={() =>
-            navigation.navigate("Quiz", {
-              title: "Computers",
-              questions: computerQuestions,
-              color: "#49475B"
+            navigation.navigate("Cards", {
+              title: "Korteles 2",
+              questions: kortele2,
+              color: "#36b1f0"
             })
           }
         />

@@ -2,6 +2,7 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import QuizIndex from "./screens/QuizIndex";
 import Quiz from "./screens/Quiz";
+import Cards from "./screens/Cards";
 
 const MainStack = createStackNavigator({
   QuizIndex: {
@@ -16,6 +17,17 @@ const MainStack = createStackNavigator({
   },
   Quiz: {
     screen: Quiz,
+    navigationOptions: ({ navigation }) => ({
+      headerTitle: navigation.getParam("title"),
+      headerTintColor: "#fff",
+      headerStyle: {
+        backgroundColor: 'black',
+        borderBottomColor: navigation.getParam("color")
+      }
+    })
+  },
+  Cards: {
+    screen: Cards,
     navigationOptions: ({ navigation }) => ({
       headerTitle: navigation.getParam("title"),
       headerTintColor: "#fff",
