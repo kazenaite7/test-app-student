@@ -11,19 +11,25 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20
   },
   text: {
-    color: "#fff",
+    color: "#515151",
     fontSize: 25,
     textAlign: "center",
     letterSpacing: -0.02,
-    fontWeight: "600"
+    fontWeight: "600",
+    paddingBottom: 20
   },
   questionText: {
-    color: "#fff",
+    color: "#515151",
     fontSize: 17,
     textAlign: "center",
     letterSpacing: -0.02,
     fontWeight: "600",
-    textAlign: 'justify'
+    textAlign: 'justify',
+    backgroundColor: "#fff",
+    padding: 10,
+    borderWidth: 1,
+    borderColor: "#797979",
+    borderRadius: 10
   },
   safearea: {
     flex: 1,
@@ -112,15 +118,15 @@ class Quiz extends React.Component {
             </ButtonContainer>
           </View>
 
-          <Text style={styles.text}>
+          {/* <Text style={styles.text}>
             {`${this.state.correctCount}/${this.state.totalCount}`}
-          </Text>
-          <ButtonNext
+          </Text> */}
+          {/* <ButtonNext
             text='->'
             onPress={() => {
               setTimeout(() => this.nextQuestion(), 750);
             }}
-          />
+          /> */}
         </SafeAreaView>
         <Alert
           correct={this.state.answerCorrect}

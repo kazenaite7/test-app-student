@@ -1,26 +1,20 @@
 const cards = [
     {
-        question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.",
+        question: "Patikimumo užtikrinimo paslaugų priežiūros įstaiga Lietuvoje yra:",
         answers: [
-            { id: "1", text: " A) Lorem ipsum dolor sit amet." },
+            { id: "1", text: "Lietuvos Respublikos ryšių reguliavimo tarnyba (RRT)" },
         ]
     },
     {
-        question: "Klausimelis",
+        question: "Technologiškai neutralus el. parašo reguliavimas reiškia, kad:",
         answers: [
-            { id: "1", text: "6" }
+            { id: "1", text: "el. parašus galima pripažinti arba nepripažinti priklausomai nuo jų saugumo/patikimumo lygio" }
         ]
     },
     {
-        question: "Klausimelis",
+        question: "OECD (liet. EBPO) yra:",
         answers: [
-            { id: "1", text: "6" }
-        ]
-    },
-    {
-        question: "Klausimelis",
-        answers: [
-            { id: "1", text: "6" }
+            { id: "1", text: "teisiškai neprivalomas rekomendacijas IT srityje valstybėms narėms teikianti išsivysčiusių pasaulio šalių tarptautinė organizacija; Lietuvai šios rekomendacijos aktualios, nes Lietuva yra šios organizacijos narė." }
         ]
     }
 ];

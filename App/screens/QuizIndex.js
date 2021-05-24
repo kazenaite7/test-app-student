@@ -2,9 +2,6 @@ import React from "react";
 import { ScrollView, StatusBar, Text, View } from "react-native";
 import { ThemeProvider, Button } from 'react-native-elements';
 
-import spaceQuestions from "../data/space";
-import westernsQuestions from "../data/westerns";
-import computerQuestions from "../data/computers";
 import testas1 from "../data/testas1";
 import testas2 from "../data/testas2";
 import kortele1 from "../data/kortele1";
@@ -38,7 +35,9 @@ export default ({ navigation }) => (
   <ThemeProvider theme={theme}>
     <StatusBar barStyle="dark-content" />
     <Text style={theme.Text1}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Modulio tikslas – perteikti studentams susistemintas žinias apie visuomeninių santykių, susijusių su informacinių ir ryšių
+      technologijų naudojimu, teisinį reguliavimą Lietuvoje (šį reguliavimą lyginant ir su Europos Sąjungos, tarptautiniu bei
+      užsienio valstybių reguliavimu) ir pagrindinius gebėjimus taikyti šias žinias.
       </Text>
 
     {/* Testai */}
@@ -52,7 +51,7 @@ export default ({ navigation }) => (
             navigation.navigate("Quiz", {
               title: "Testas 1",
               questions: testas1,
-              color: "#797979"
+              color: "#FFFFFF"
             })
           }
         />
@@ -63,7 +62,7 @@ export default ({ navigation }) => (
             navigation.navigate("Quiz", {
               title: "Testas 2",
               questions: testas2,
-              color: "#36b1f0"
+              color: "#FFFFFF"
             })
           }
         />
@@ -75,24 +74,24 @@ export default ({ navigation }) => (
       <Text style={theme.Text2}>Mokomosios kortelės</Text>
       <ScrollView>
         <RowItem
-          name="Korteles 1"
-          color="#36b1f0"
+          name="Rinkinys 1"
+          color="#FFFFFF"
           onPress={() =>
             navigation.navigate("Cards", {
-              title: "Korteles 1",
+              title: "Rinkinys 1",
               questions: kortele1,
-              color: "#36b1f0"
+              color: "#FFFFFF"
             })
           }
         />
         <RowItem
-          name="Korteles 2"
-          color="#36b1f0"
+          name="Rinkinys 2"
+          color="#FFFFFF"
           onPress={() =>
             navigation.navigate("Cards", {
-              title: "Korteles 2",
+              title: "Rinkinys 2",
               questions: kortele2,
-              color: "#36b1f0"
+              color: "#FFFFFF"
             })
           }
         />

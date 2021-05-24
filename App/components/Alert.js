@@ -14,6 +14,16 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center"
   },
+  containerEnd: {
+    position: "absolute",
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center"
+  },
   circle: {
     backgroundColor: "#ff4136",
     width: screen.width / 2,
@@ -34,7 +44,9 @@ const styles = StyleSheet.create({
     height: screen.width / 2,
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: 10
+    borderRadius: 10,
+    borderColor: "#797979",
+    borderWidth: 1
   }
 });
 
@@ -65,12 +77,12 @@ export const AlertEnd = ({ correct, wrong, visible, onPress }) => {
 
   const squareStyles = [styles.square];
 
-  if (correct) {
-    squareStyles.push(styles.circleCorrect);
-  }
+  // if (correct) {
+  //   squareStyles.push(styles.circleCorrect);
+  // }
 
   return (
-    <View style={styles.container}>
+    <View style={styles.containerEnd}>
       <View style={squareStyles}>
         <Text>Rezultatai:</Text>
         <Text>Teisingai: {correct}</Text>

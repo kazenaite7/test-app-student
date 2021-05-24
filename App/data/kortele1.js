@@ -1,26 +1,26 @@
 const cards = [
     {
-        question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.",
+        question: "Kaip suprantamas elektroninės formos nediskriminavimas?",
         answers: [
-            { id: "1", text: " A) Lorem ipsum dolor sit amet." },
+            { id: "1", text: "Dokumentai ar parašai nėra negaliojantys vien todėl, kad jie yra elektroniniai." },
         ]
     },
     {
-        question: "Klausimelis",
+        question: "ES direktyva yra:",
         answers: [
-            { id: "1", text: "6" }
+            { id: "1", text: "Teisės aktas, taikomas jį perkeliant į ES valstybės vidaus teisės aktų sistemą." }
         ]
     },
     {
-        question: "Klausimelis",
+        question: "Verslas vartotojams komercija dažnai vadinama",
         answers: [
-            { id: "1", text: "6" }
+            { id: "1", text: "B2C" }
         ]
     },
     {
-        question: "Klausimelis",
+        question: "Elektroninė laiko žyma - elektroninės formos duomenys, kuriais:",
         answers: [
-            { id: "1", text: "6" }
+            { id: "1", text: "Kiti elektroninės formos duomenys susiejami su tam tikru laiku ir taip sukuriamas įrodymas, kad pastarieji egzistavo tuo metu." }
         ]
     }
 ];

@@ -11,19 +11,31 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20
   },
   text: {
-    color: "#fff",
+    color: "#515151",
     fontSize: 25,
     textAlign: "center",
     letterSpacing: -0.02,
-    fontWeight: "600"
+    fontWeight: "600",
+    paddingBottom: 20
   },
   questionText: {
-    color: "#fff",
+    // color: "#fff",
+    // fontSize: 17,
+    // textAlign: "center",
+    // letterSpacing: -0.02,
+    // fontWeight: "600",
+    // textAlign: 'justify'
+    color: "#515151",
     fontSize: 17,
     textAlign: "center",
     letterSpacing: -0.02,
     fontWeight: "600",
-    textAlign: 'justify'
+    textAlign: 'justify',
+    backgroundColor: "#fff",
+    padding: 10,
+    borderWidth: 1,
+    borderColor: "#797979",
+    borderRadius: 10
   },
   safearea: {
     flex: 1,
@@ -44,31 +56,6 @@ class Cards extends React.Component {
     textValue: '?'
   };
 
-  // answer = correct => {
-  //   this.setState(
-  //     state => {
-  //       const nextState = { answered: true };
-
-  //       // if (correct) {
-  //       //   nextState.correctCount = state.correctCount + 1;
-  //       //   nextState.answerCorrect = true;
-  //       // } else {
-  //       //   nextState.answerCorrect = false;
-  //       // }
-  //       this.setState({
-  //         textValue: 'atsakymas'
-  //       })
-
-  //       return nextState;
-  //     },
-  //     () => {
-  //       setTimeout(() => this.nextCard(), 750);
-  //     }
-  //   );
-  // };
-
-
-
   nextCard = () => {
     this.setState(state => {
       const nextIndex = state.activeQuestionIndex + 1;
@@ -78,7 +65,6 @@ class Cards extends React.Component {
 
       if (nextIndex >= state.totalCount) {
         return { ended: true }
-        //return this.props.navigation.popToTop();
       }
 
       state.questionNumber++;
@@ -112,13 +98,6 @@ class Cards extends React.Component {
             <Text style={styles.questionText}>{question.question}</Text>
 
             <ButtonContainer>
-              {/* {question.answers.map(answer => (
-                <Button
-                  key={answer.id}
-                  text={answer.text}
-                  onPress={() => this.answer(answer.correct)}
-                />
-              ))} */}
               {question.answers.map(answer => (<Button
                 key={answer.id}
                 text={this.state.textValue}
@@ -128,27 +107,13 @@ class Cards extends React.Component {
               />))}
             </ButtonContainer>
           </View>
-
-          {/* <Text style={styles.text}>
-            {`${this.state.correctCount}/${this.state.totalCount}`}
-          </Text> */}
           <ButtonNext
-            text='->'
+            text='⇨'
             onPress={() => {
               setTimeout(() => this.nextCard(), 750);
             }}
           />
         </SafeAreaView>
-        {/* <Alert
-          correct={this.state.answerCorrect}
-          visible={this.state.answered}
-        /> */}
-        {/* <AlertEnd
-          correct={this.state.correctCount}
-          wrong={this.state.totalCount}
-          visible={this.state.ended}
-        >
-        </AlertEnd> */}
       </View>
     );
   }

@@ -21,7 +21,7 @@ const MainStack = createStackNavigator({
       headerTitle: navigation.getParam("title"),
       headerTintColor: "#fff",
       headerStyle: {
-        backgroundColor: 'black',
+        backgroundColor: '#FE5B2B',
         borderBottomColor: navigation.getParam("color")
       }
     })
@@ -32,7 +32,7 @@ const MainStack = createStackNavigator({
       headerTitle: navigation.getParam("title"),
       headerTintColor: "#fff",
       headerStyle: {
-        backgroundColor: 'black',
+        backgroundColor: '#FE5B2B',
         borderBottomColor: navigation.getParam("color")
       }
     })

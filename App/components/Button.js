@@ -3,24 +3,28 @@ import { View, TouchableOpacity, Text, StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: "rgba(255, 255, 255, 0.3)",
+    backgroundColor: "#FFFFFF",
     borderRadius: 10,
+    borderColor: "#797979",
     paddingVertical: 15,
     width: "100%",
     marginTop: 20,
+    borderColor: "#797979",
+    borderWidth: 1
   },
   buttonNext: {
     backgroundColor: "rgba(255, 255, 255, 0.3)",
     borderRadius: 10,
     paddingVertical: 15,
     width: "20%",
-    marginTop: 20,
-    marginBottom: 20,
     alignSelf: "flex-end",
-    alignItems: "center"
+    alignItems: "center",
+    borderColor: '#797979',
+    borderRadius: 10,
+    marginBottom: 500
   },
   text: {
-    color: "#fff",
+    color: "#515151",
     fontSize: 20,
     textAlign: "left",
     marginLeft: 5,
@@ -29,6 +33,8 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     marginTop: 20,
     justifyContent: "space-between",
+    borderColor: '#797979',
+    borderRadius: 10,
   }
 });
 
