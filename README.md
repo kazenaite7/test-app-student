@@ -9,5 +9,7 @@ Programa su pagrindinėmis mokymosi aplinkos mobiliajame įrenginyje funkcijomis
 
 ## Paleidimo instrukcija:
 1. Programos atsiuntimas ir atidarymas.
-2. Komanda - npm install
-3. Komanda - expo start
+2. Mobiliajame įrenginyje reikalinga turėti Expo Go mobiliąją programėlę.
+3. Komanda - npm install
+4. Komanda - expo start
+5. Mobiliuoju įrenginiu nuskaitomas sugeneruotas QR kodas ir atidaroma programėlė mobiliajame įrenginyje.
