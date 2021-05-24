@@ -4,6 +4,13 @@ Programa su pagrindinėmis mokymosi aplinkos mobiliajame įrenginyje funkcijomis
 
 ## Programos ekranai
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7499.PNG" width="227" height="404">
+<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7500.PNG" width="227" height="404">
+<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7501.PNG" width="227" height="404">
+<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7503.PNG" width="227" height="404">
+<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7504.PNG" width="227" height="404">
+<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7505.PNG" width="227" height="404">
+<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7506.PNG" width="227" height="404">
+
 
 ## Paleidimo instrukcija:
 1. Programos atsiuntimas ir atidarymas.
