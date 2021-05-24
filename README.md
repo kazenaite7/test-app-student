@@ -5,8 +5,7 @@ Programa su pagrindinėmis mokymosi aplinkos mobiliajame įrenginyje funkcijomis
 ## Programos ekranai
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7510.jpg">
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7509.jpg">
-<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7506.PNG" width="350" height="623">
-
+<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7506.PNG" width="330" height="587">
 
 ## Paleidimo instrukcija:
 1. Programos atsiuntimas ir atidarymas.
