@@ -1,4 +1,11 @@
-# test-app
+# Test App Student
+Mokymosi aplinka mobiliajame įrenginyje, skirta studentui.
+Programa su pagrindinėmis mokymosi aplinkos mobiliajame įrenginyje funkcijomis, kurios buvo išgrynintos bakalaurinio darbo metu.
 
-1. npm install
-2. expo start
+## Programos ekranai
+<img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7499.PNG">
+
+## Paleidimo instrukcija:
+1. Programos atsiuntimas ir atidarymas.
+2. Komanda - npm install
+3. Komanda - expo start
