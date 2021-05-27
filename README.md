@@ -5,10 +5,10 @@ Programa su pagrindinėmis mokymosi aplinkos mobiliajame įrenginyje funkcijomis
 
 
 ## Programos demonstracija
-**Demonstracinis programos vaizdo įrašas:**
+### Demonstracinis programos vaizdo įrašas:
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/appDemonstration.gif" width="250" height="445"/>
 
-**Ekranvaizdžiai:**
+### Ekranvaizdžiai:
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7510.jpg">
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7509.jpg">
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7511.jpg">
