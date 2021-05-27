@@ -5,6 +5,10 @@ Programa su pagrindinėmis mokymosi aplinkos mobiliajame įrenginyje funkcijomis
 
 
 ## Programos ekranai
+<video controls autoplay>
+  <source src="https://github.com/kazenaite7/test-app-student/blob/main/assets/appDemonstration.mp4" type="video/mp4">
+</video>
+
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7510.jpg">
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7509.jpg">
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7511.jpg">
