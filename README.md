@@ -4,10 +4,8 @@ Bakalauro baigiamojo darbo dalis - studento mokymosi aplinkos mobiliajame įreng
 Programa su pagrindinėmis mokymosi aplinkos mobiliajame įrenginyje funkcijomis, kurios buvo išgrynintos bakalaurinio darbo metu. Įgyvendinamos pagrindinės suprojektuotos funkcijos – testo atlikimas ir mokomųjų kortelių panaudojimas. Siekiama šias funkcijas išbandyti testuotojų asmeniniuose mobiliuose įrenginiuose ir taip įsitikinti, kad yra parinktos funkcijos būtų patogios naudoti, nepriklausomai nuo šiuolaikinio mobiliojo įrenginio dydžio ar mobiliojo operacinės sistemos. 
 
 
-## Programos ekranai
-<video controls autoplay>
-  <source src="https://github.com/kazenaite7/test-app-student/blob/main/assets/appDemonstration.mp4" type="video/mp4">
-</video>
+## Programos demonstracija
+![cgapp_create](https://github.com/kazenaite7/test-app-student/blob/main/assets/appDemonstration.gif)
 
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7510.jpg">
 <img src="https://github.com/kazenaite7/test-app-student/blob/main/assets/IMG_7509.jpg">
